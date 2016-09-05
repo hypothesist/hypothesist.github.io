@@ -1,0 +1,5 @@
+if [[ $# -eq 0 ]] ; then
+    echo 'Please give the url ID.'
+    exit 0
+fi
+vim _posts/`date +%Y-%m-%d`-$1.md && jekyll build && cd _site && git add -A && git commit -m "Site update" && git push --force && cd .. && echo "Done!"

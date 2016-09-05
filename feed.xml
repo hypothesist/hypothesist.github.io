@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adhityaa&#39;s blog</title>
+    <description>Adhityaa&#39;s blog
+</description>
+    <link>http://hypothesist.github.io/</link>
+    <atom:link href="http://hypothesist.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Aug 2016 22:23:44 +0530</pubDate>
+    <lastBuildDate>Mon, 15 Aug 2016 22:23:44 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>GSoC &#39;16: Final Report</title>
+        <description>&lt;p&gt;GSoC 2016 was one of the best things I&amp;#39;ve had the opportunity to participate in. I&amp;#39;ve learned so much, had a lot of fun with the community the whole time, got to work on something that I really like and care about, got the once-in-a-lifetime opportunity to visit Europe, and still get paid in the end. And none of this would have been possible without the support and help from the coala community as a whole. Especially Lasse, who was my mentor for the program, from whom I&amp;#39;ve learned
+so, so much. And Abdeali, who introduced me to coala in the first place and help me get settled in the community. It honestly wouldn&amp;#39;t have been possible without any of them, and I really mean it. Seriously, thank you :)&lt;/p&gt;
+
+&lt;h4&gt;List of commits I&amp;#39;ve made over the summer&lt;/h4&gt;
+
+&lt;p&gt;The last three months have been action packed. Check &amp;#39;em out for yourself:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart&quot;&gt;&lt;code&gt;coala-quickstart&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Commit SHA&lt;/th&gt;
+&lt;th&gt;Commit&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/b8d8349a72247343e2beb1d906ddb41cc2b476e4&quot;&gt;&lt;code&gt;b8d8349&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Add tests directory for testing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/df99516e5b7978aa30a07b59f74c93ec1acfe8c4&quot;&gt;&lt;code&gt;df99516&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;py.test: Execute doctests for all modules&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/3d01aed917ecbc13016058131be22062e2ff7816&quot;&gt;&lt;code&gt;3d01aed&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Create coala-quickstart executable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/28a33f9c2c1ac4f3532872d15a09ba54ebe9a6e6&quot;&gt;&lt;code&gt;28a33f9&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Add coala bear logo with welcome message&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/759e445f6e36237527d4bcd538db591da17a1bdb&quot;&gt;&lt;code&gt;759e445&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;generation: Add validator to ensure path is valid&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/111d9844c5c8f077fa8d7c930c096aea4ac970f6&quot;&gt;&lt;code&gt;111d984&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;generation: Identify most used languages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/4ace132ccd75148df42d7395d2e3e1ef67a4f742&quot;&gt;&lt;code&gt;4ace132&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;generation: Ask about file globs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/8f7fe23931b8672147d7e04f24ddf8a4ea6751fd&quot;&gt;&lt;code&gt;8f7fe23&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;generation: Identify relevant bears and show help&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/839fa195102d0d40a185738f23c718127cd41c7d&quot;&gt;&lt;code&gt;839fa19&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;FileGlobs: Simplify questions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/7c98e485df04a2ad4ef644e3fb5b675d7d5e0931&quot;&gt;&lt;code&gt;7c98e48&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Settings: Generate sections for each language&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/b28e20c3c6b3b4aa61062d59640b762c64e0645e&quot;&gt;&lt;code&gt;b28e20c&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Settings: Write to coafile&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/69a5d2feb49fb777e6bd80442fe69a107f5ebf7e&quot;&gt;&lt;code&gt;69a5d2f&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Generate coafile with basic settings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/60bee9a7c8c8618e6314749d2a85568659b0bed4&quot;&gt;&lt;code&gt;60bee9a&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Extract files to ignore from .gitignore&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/62978adf4cd0ef902ca0c1fc89fa88837e815e1c&quot;&gt;&lt;code&gt;62978ad&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Change requirements&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/36c848632a846052191b6d1d50df948741632a82&quot;&gt;&lt;code&gt;36c8486&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Enable coverage report&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/d78e85ed94f6d307e55b0546427b94ca5d0434f5&quot;&gt;&lt;code&gt;d78e85e&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Bears: Change language used in tests&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/4a8819e1e70a1e99aeef4ab910bf2201033e2637&quot;&gt;&lt;code&gt;4a8819e&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;setup.py: Add myself to the list of maintainers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/54f21c6b9bf67e4fb0c6be33cfb4398d69650338&quot;&gt;&lt;code&gt;54f21c6&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;gitignore: Ignore .egg-info directories&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/commit/6a7b63a61804fca774c73d20316138e92a6451f7&quot;&gt;&lt;code&gt;6a7b63a&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Bears: Use only important bears for each language&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala&quot;&gt;&lt;code&gt;coala&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Commit SHA&lt;/th&gt;
+&lt;th&gt;Commit&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/45bfec9472a6166d99464ab2472a1d8707985cd6&quot;&gt;&lt;code&gt;45bfec9&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Processing: Reuse file dicts loaded to memory&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/ef287a46aabab3dcd67e9bfc3395e47001ef0c39&quot;&gt;&lt;code&gt;ef287a4&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ConsoleInteraction: Sort questions by bear&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/7d57784e0fd0f09ca36815b53498475713129420&quot;&gt;&lt;code&gt;7d57784&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Caching: Make caching default&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/173281382071c4fb660457c100aa03c52b6fbc52&quot;&gt;&lt;code&gt;1732813&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Processing: Switch log message to debug&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/01890c2b6288a8ed78c7d5a167a796164884b38b&quot;&gt;&lt;code&gt;01890c2&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;CachingUtilitiesTest: Use &lt;code&gt;Section&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/868c926a4e24259e7f1224a6a0671d6b82f25b39&quot;&gt;&lt;code&gt;868c926&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;README: Update it&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/f79f53e51079085fc0abb5e0c7b0577133833758&quot;&gt;&lt;code&gt;f79f53e&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Constants: Add strings to binary answers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/2d7ee93d4b8693b2a37c927813aba643d0ffdc6b&quot;&gt;&lt;code&gt;2d7ee93&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;LICENSE: Remove boilerplate stuff&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/da6c3ebdf7034a13dc31400750006a815c4c2de6&quot;&gt;&lt;code&gt;da6c3eb&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Replace listdir with scandir&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/ad3ec72ac44ee27926fa063e1173f515c1546951&quot;&gt;&lt;code&gt;ad3ec72&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;coalaCITest: Remove unused imports&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/91c109d2910866c95ef48c9dd6c10ecbc8f99f58&quot;&gt;&lt;code&gt;91c109d&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Add option to run coala only on changed files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/5a6870c89ede45cbe21c77120d95f1bd9bee17a3&quot;&gt;&lt;code&gt;5a6870c&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;coala: Add class to collect only changed files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/622a3e5552e90983499ad182eb8c1ff347c183d1&quot;&gt;&lt;code&gt;622a3e5&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Add caching utilities&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/e1b3594b06a0b8c73f23de9a1c8c8ebd8e76f607&quot;&gt;&lt;code&gt;e1b3594&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Tagging: Remove Tagging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/&quot;&gt;&lt;code&gt;coala-utils&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Commit SHA&lt;/th&gt;
+&lt;th&gt;Commit&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/27ee83cdbae88a24d99c42421e41d4e7808a545b&quot;&gt;&lt;code&gt;27ee83c&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Update version&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/64b0e0b57d70f6dbd05f05175c02bf7be40737fc&quot;&gt;&lt;code&gt;64b0e0b&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Question: Validate the answer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/1046c2960bc1f1309a21eb09c94d1386656dec69&quot;&gt;&lt;code&gt;1046c29&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;VERSION: Bump version&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/bd1e8faf1e6a0dd44387c1ecb390c33e5d8fc011&quot;&gt;&lt;code&gt;bd1e8fa&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;setup.cfg: Enable coverage report&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/79fee96a8381852f05b87092d40a36e7e900c592&quot;&gt;&lt;code&gt;79fee96&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Question: Use &lt;code&gt;input&lt;/code&gt; instead of prompt toolkit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/cfd81c17d4724b1117a96e86bd3296e56f93fcc0&quot;&gt;&lt;code&gt;cfd81c1&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;coala_utils: Move &lt;code&gt;ContextManagers&lt;/code&gt; from coalib&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/c5a4526e73902456d571bdbb63a4272a1a84a70d&quot;&gt;&lt;code&gt;c5a4526&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Add MANIFEST&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/f0199620fda9ae1bf64fe5a14868cd05de776755&quot;&gt;&lt;code&gt;f019962&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Change VERSION&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/9db2898c48b9260e7be67e7e0dcc1641c9ef40fa&quot;&gt;&lt;code&gt;9db2898&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Add map between file extension to language name&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/commit/a52a30983487d457f7c6b3c0db0741c59b5681db&quot;&gt;&lt;code&gt;a52a309&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;coala_utils: Add Question module&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;That&amp;#39;s a &lt;b&gt;&lt;font color=&quot;green&quot;&gt;+2633&lt;/font&gt; / &lt;font color=&quot;red&quot;&gt;-471&lt;/font&gt;&lt;/b&gt; change! I honestly didn&amp;#39;t know it&amp;#39;d be
+that big. Anyway, those were the technical stats. On to the showcase!&lt;/p&gt;
+
+&lt;h4&gt;Stuff I worked on&lt;/h4&gt;
+
+&lt;h5&gt;My primary GSoC proposal: &lt;code&gt;coala-quickstart&lt;/code&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;imgur-embed-pub&quot; lang=&quot;en&quot; data-id=&quot;a/I5VEw&quot;&gt;&lt;a href=&quot;//imgur.com/I5VEw&quot;&gt;coala-quickstart&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;//s.imgur.com/min/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;And here&amp;#39;s the coafile that&amp;#39;s generated:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/hypothesist/8cafb300ae3c9c7905fdc8b6bce8ae43.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Pretty neat stuff, huh? :)&lt;/p&gt;
+
+&lt;p&gt;Anyway, that was my whole project in a nutshell. I worked on other stuff too during the coding period. Here are some of the results:&lt;/p&gt;
+
+&lt;h5&gt;Caching in &lt;code&gt;coala&lt;/code&gt;&lt;/h5&gt;
+
+&lt;p&gt;This is another thing I&amp;#39;m proud of: caching in coala. Remember how you had to lint all your files every time even if you changed just one line? No more. With caching, coala will only collect those files that have changed since the last run. This produces a terrific improvement in speed:&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Trial 1&lt;/th&gt;
+&lt;th&gt;Trial 2&lt;/th&gt;
+&lt;th&gt;Trial 3&lt;/th&gt;
+&lt;th&gt;Average&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Without caching&lt;/td&gt;
+&lt;td&gt;9.841&lt;/td&gt;
+&lt;td&gt;9.594&lt;/td&gt;
+&lt;td&gt;9.516&lt;/td&gt;
+&lt;td&gt;9.650&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;With caching&lt;/td&gt;
+&lt;td&gt;3.374&lt;/td&gt;
+&lt;td&gt;3.341&lt;/td&gt;
+&lt;td&gt;3.358&lt;/td&gt;
+&lt;td&gt;3.358&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;That&amp;#39;s almost a 3x improvement in speed!&lt;/p&gt;
+
+&lt;p&gt;Initially, caching was an experimental feature since we didn&amp;#39;t want to break stuff! And this &lt;em&gt;can&lt;/em&gt; break a lot of stuff. But fortunately, everything went perfectly smoothly and caching was made default.&lt;/p&gt;
+
+&lt;h5&gt;README overhaul&lt;/h5&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/coala-analyzer/coala/blob/master/README.rst&quot;&gt;coala README page&lt;/a&gt; got a
+complete overhaul. I placed a special emphasis on simplicity and the design; and to be honest,
+I&amp;#39;m quite happy with the outcome.&lt;/p&gt;
+
+&lt;h5&gt;Other miscellaneous stuff&lt;/h5&gt;
+
+&lt;p&gt;I worked on other tiny things during the coding phase:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/pull/2585&quot;&gt;#2585&lt;/a&gt;: This was a small bugfix (to my annoyance, introduced by me). This also led to a performance improvement.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/pull/2322&quot;&gt;#2322&lt;/a&gt;: &lt;code&gt;listdir&lt;/code&gt; is a new &lt;code&gt;python3.5&lt;/code&gt; feature that is faster than the traditional &lt;code&gt;scandir&lt;/code&gt; that is used to get a directory&amp;#39;s contents.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala/commit/e1b3594b06a0b8c73f23de9a1c8c8ebd8e76f607&quot;&gt;&lt;code&gt;e1b3594&lt;/code&gt;&lt;/a&gt;: I removed &lt;code&gt;Tagging&lt;/code&gt; with this commit. It was unused.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/merge_requests/11&quot;&gt;#11&lt;/a&gt;, &lt;a href=&quot;https://gitlab.com/coala/coala-utils/merge_requests/14&quot;&gt;#14&lt;/a&gt;: A generic tool to ask the user a question and return the answer in a formatted manner. This is now used in several packages across coala.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There were other tiny changes, but you can find them in the commit list.&lt;/p&gt;
+
+&lt;h4&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;It&amp;#39;s really been a blast, right from the start to the start to the finish. Thanks to everyone who has helped me in any way. Thanks to Google for sponsoring such an awesome program. Thanks to the PSF for providing coala with an opportunity at GSoC. I honestly can&amp;#39;t see how this would have been possible without any of you.&lt;/p&gt;
+
+&lt;p&gt;To everyone else, I really recommend contributing to open-source. It doesn&amp;#39;t have to be coala. It doesn&amp;#39;t even need to be a big project. Just find a project you like: it can even be a silly project that doesn&amp;#39;t do anything useful. The whole point is to get started. GSoC is one way to easily do that. There is such a wide variety of organizations and projects, I&amp;#39;m pretty sure at least one project will be to your liking. And you&amp;#39;re always welcome at coala. Just drop by and
+say hello at &lt;a href=&quot;https://gitter.im/coala-analyzer/coala&quot;&gt;our Gitter channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adhityaa&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Aug 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/08/15/gsoc-final-post.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/08/15/gsoc-final-post.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GSoC &#39;16: Update</title>
+        <description>&lt;p&gt;Hello again!&lt;/p&gt;
+
+&lt;p&gt;Big advancements and changes for this update.&lt;/p&gt;
+
+&lt;p&gt;I have almost got my whole project merged! It is in the very last stages with one or two tiny changes to make and then it&amp;#39;s done!&lt;/p&gt;
+
+&lt;p&gt;There have been a few changes design-wise:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The number of questions has been reduced to just one: this is the ultimate quickstart setup. You just need to give the project directory now and the coafile will be automatically generated. No interaction from the user at all!&lt;br&gt;
+Basically, the question asking the user for files to match is now everything by default. And the files to ignore is automatically identified from the gitignore file. Pretty neat huh?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No more complicated section globs. Instead of having an unnecessarily long section, we&amp;#39;re now generating concise globs that virtually do the same thing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Settings filling: instead of leaving the mandatory settings to be asked for at runtime, we&amp;#39;re now prompting the user for the values at coafile generation itself. This is more logical.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here&amp;#39;s the coafile generated when I ran coala-quickstart on coala-quickstart&amp;#39;s project directory:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;[default]
+bears = LineLengthBear, LineCountBear, SpaceConsistencyBear, InvalidLinkBear, KeywordBear, FilenameBear
+files = **.py, **.yml, **.rst, **.c, **.js
+ignore = .git/**, **/build/**, **/htmlcov/**, htmlcov/**, **/src/**
+max_lines_per_file = 1000
+use_spaces = True
+cs_keywords, ci_keywords = 
+
+[python]
+bears = CPDBear, PyCommentedCodeBear, RadonBear, PyUnusedCodeBear, PEP8Bear, PyImportSortBear, PyDocStyleBear, PyLintBear
+files = **.py
+language = python
+
+[yaml]
+bears = YAMLLintBear
+files = **.yml
+
+[restructuredtext]
+bears = reSTLintBear
+files = **.rst
+
+[c]
+bears = GNUIndentBear, ClangASTPrintBear, CPPCheckBear, CSecurityBear, ClangBear, ClangComplexityBear
+files = **.c
+
+[javascript]
+bears = CPDBear, ESLintBear, JSComplexityBear, JSHintBear
+files = **.js
+language = python
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I really like this: this was how I envisioned the coafile to look like originally and it&amp;#39;s panning out even better.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m now in the last week of my project. I&amp;#39;m expecting the PR to be merged today and then I&amp;#39;ll be focussing on the prototype I have for guessing each bear&amp;#39;s params. I&amp;#39;ll make an update post again next week.&lt;/p&gt;
+
+&lt;p&gt;Till then,&lt;br&gt;
+Adhitya  &lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Aug 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/08/08/gsoc-update.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/08/08/gsoc-update.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>My EuroPython Experience</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://ep2016.europython.eu/static/p6/images/europython-2016-logo-white-bg.png&quot; alt=&quot;EuroPython 2016&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;What a blast! I had a lot of fun at EuroPython, and it wasn&amp;#39;t just the conference.&lt;/p&gt;
+
+&lt;p&gt;To start off, it was exciting to meet the guys: Lasse, Max, Tushar, Udayan, Adrian, Alex and Justus. My only interaction with them was through Gitter previously. We had a lot of fun (more on that later): everyday after the conference, we all go over to the Airbnb and do our own sprints which I enjoyed from start to finish.&lt;/p&gt;
+
+&lt;p&gt;And the conference itself was one of the best experiences I&amp;#39;ve ever had: I learned &lt;em&gt;so&lt;/em&gt; much about Python: iterables, meta-classes, performance optimizations, parallel computing and much, much more.&lt;/p&gt;
+
+&lt;p&gt;But my favorites were the Lightning Talks. A Lightning Talk is an hour long event where several speakers get five minutes on stage to talk about virtually anything they want. Lasse got two opportunities on stage and Max gave a talk as well. And then on the last day, the whole team got to present a video, which we made the night before. It is one of the most hilarious things I&amp;#39;ve seen :D&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JWVCMjKU_10&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I also had the opportunity to co-conduct a 3-hour workshop on making a contribution to open source with Tushar. It was an interesting experience and I never fully understood the amount of effort that needs to go into a talk/workshop till then.&lt;/p&gt;
+
+&lt;p&gt;And on the last two days, we had sprints. I just juggled with several small issues and PRs (and of course, my GSoC project). It was different talking in person with everybody instead of Gitter (although we did use Gitter when the person was over 3 feet away :P). And we got a lot of stuff done (and I got a bar of chocolate from Lasse!).&lt;/p&gt;
+
+&lt;p&gt;Anyway, that was my EuroPython experience. I went on a tour to France, Belgium and Poland after that for a week: Europe is truly beautiful. Hope I can make it next year as well :)&lt;/p&gt;
+
+&lt;p&gt;Adhityaa&lt;br&gt;
+&lt;code&gt;:wq&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Aug 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/08/06/europython-update.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/08/06/europython-update.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        <category>europython</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GSoC &#39;16: Weeks 5-7 updates</title>
+        <description>&lt;p&gt;This week was admittedly slow. I have been a bit pre-occupied with a couple of
+other things, including EuroPython preparation. But a huge chunk is already completed, so
+I guess that gives me a little cushion :)&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;coala-quickstart&lt;/code&gt; pull request is still under review - it is an incredibly big thing with
+over 1000+ lines of code spread out over ~16 commits, so it&amp;#39;s understandable. Big
+props to &lt;a href=&quot;https://github.com/sils1297&quot;&gt;Lasse&lt;/a&gt; for taking the time to patiently
+review it.&lt;/p&gt;
+
+&lt;p&gt;Two (major) developments in this period:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/coala-utils/&quot;&gt;&lt;code&gt;coala-utils&lt;/code&gt;&lt;/a&gt; - this is a utility
+package that is designed to contain various small helper modules that can be
+used globally by coala (and everyone else!).&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is currently just a collection of tools sourced around from various sections
+  in the coala-analyzer, but it has so much scope for expansion.&lt;/p&gt;
+
+&lt;p&gt;The idea behind this partitioning is
+  that a there are other coala projects under construction by other (awesome)
+  GSoCers and code redundancy is an evil. Another side benefit is the removal of
+  possible cyclic reference issues between these tools and &lt;code&gt;coalib&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;#39;ve also been working on an enhancement for the &lt;a href=&quot;https://github.com/coala-analyzer/coala/blob/836832970c0d54ab7ae558d4ca412eee9167fd78/README.rst&quot;&gt;current README file&lt;/a&gt;. You can
+follow the progress at my &lt;a href=&quot;https://github.com/coala-analyzer/coala/pull/2413&quot;&gt;pull request #2413&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There was a challenge I was not able to overcome: integration of &lt;a href=&quot;https://github.com/jonathanslenders/python-prompt-toolkit&quot;&gt;&lt;code&gt;prompt-toolkit&lt;/code&gt;&lt;/a&gt;
+with &lt;code&gt;pytest&lt;/code&gt;. After much effort (and believe me, I spent a full day looking at
+3-4 lines of code), I gave up. The gist of the issue is that &lt;code&gt;pytest&lt;/code&gt; attempts some
+magic with &lt;code&gt;import&lt;/code&gt;s. I have a suspicion this is for coverage, but I may be wrong
+here. Anyway, this messes with &lt;code&gt;prompt-toolkit&lt;/code&gt;s imports and the whole thing breaks.&lt;/p&gt;
+
+&lt;p&gt;So I had to fallback to the rudimentary &lt;code&gt;input()&lt;/code&gt; method instead for the implmentation
+of &lt;a href=&quot;https://gitlab.com/coala/coala-utils/blob/master/coala_utils/Question.py&quot;&gt;&lt;code&gt;ask_question&lt;/code&gt;&lt;/a&gt;.While &lt;code&gt;prompt-toolkit&lt;/code&gt;
+is really fancy and has a ton of amazing features, tests are more
+important. So we chose &lt;code&gt;pytest&lt;/code&gt;, but I really hope I can find the time to change the
+module to use &lt;code&gt;prompt-toolkit&lt;/code&gt; in the future.&lt;/p&gt;
+
+&lt;p&gt;Anyway, that was that.&lt;/p&gt;
+
+&lt;p&gt;Adhityaa&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;:wq&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Jul 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/07/13/gsoc-16-coala-week-6.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/07/13/gsoc-16-coala-week-6.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>EuroPython!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://ep2016.europython.eu/static/p6/images/europython-2016-logo-white-bg.png&quot; alt=&quot;EuroPython 2016&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll be going to &lt;a href=&quot;https://ep2016.europython.eu/en/&quot;&gt;EuroPython 2016&lt;/a&gt; this week! I can&amp;#39;t
+even begin to describe how ecstatic I am!&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s going to be held in &lt;strong&gt;Bilbao, Spain&lt;/strong&gt; - a truly beautiful city, I&amp;#39;ve heard. I&amp;#39;m also
+delighted to say I&amp;#39;ve been sponsored full accommodation by the wonderful folks at
+EuroPython.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll be holding a &lt;a href=&quot;https://ep2016.europython.eu/conference/talks/guid-to-make-a-real-contribution-to-an-open-source-project-for-novice&quot;&gt;workshop on Git and other things&lt;/a&gt; along with &lt;a href=&quot;http://gtushar.co/&quot;&gt;Tushar&lt;/a&gt;
+a fellow GSoCer at coala. If you&amp;#39;ll be around, do attend :)&lt;/p&gt;
+
+&lt;p&gt;As a GSoCer, I&amp;#39;ll also get to talk about my project in something called a Lightning
+Talk, where each person is given exactly 5 minutes on stage to show something. They
+go on for about an hour and are really interesting because of the sheer number
+of different things one gets to learn about.&lt;/p&gt;
+
+&lt;p&gt;And for the rest of the weekdays, there are talks/demos/workshops by other amazing
+people. There are &lt;em&gt;so&lt;/em&gt; many interesting things happening at once, I can&amp;#39;t decide which
+one to be at! I&amp;#39;ve kind of worked out a schedule, but so many amazing talks will
+be missed :(&lt;/p&gt;
+
+&lt;p&gt;I also look forward to meeting the coala developers in person - I&amp;#39;ve only talked to them over Gitter
+and I&amp;#39;m really excited to meet them in person (plus Lasse is bringing chocolates!).&lt;/p&gt;
+
+&lt;p&gt;To finish off the conference, we have two whole days of sprints - two whole days
+of pure development. It&amp;#39;ll be really interesting to have all the coala developers
+in one room, making something awesome!&lt;/p&gt;
+
+&lt;p&gt;This will be my first time in Europe and, boy am I excited about it!&lt;/p&gt;
+
+&lt;p&gt;Adhityaa&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;:wq&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Jul 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/07/12/europython.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/07/12/europython.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        <category>conference</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GSoC &#39;16: Weeks 4 updates: Tests</title>
+        <description>&lt;p&gt;Passing tests and 100% coverage are what help us sleep comfortably in the
+night - there is a sense of comfort knowing that every situation gives
+the expected results. And that is why the past week was writing tests!&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll be honest here - I like writing the modules more than the tests.
+And that is probably why I put off writing tests for so long - instead of
+finishing the tests right after each module, I got too excited and kept
+jumping to the next feature. Oh well.&lt;/p&gt;
+
+&lt;p&gt;Anyway, at coala, we use &lt;a href=&quot;https://codecov.io&quot;&gt;codecov.io&lt;/a&gt; for coverage.
+&lt;a href=&quot;https://appveyor.com/&quot;&gt;Appveyor&lt;/a&gt; provides us with Windows build tests
+and &lt;a href=&quot;https://circleci.com/&quot;&gt;CircleCI&lt;/a&gt; is for Linux build tests. These
+are totally awesome tools and you should definitely use them for your
+projects - you &lt;em&gt;do&lt;/em&gt; write tests, don&amp;#39;t you?&lt;/p&gt;
+
+&lt;p&gt;There was one challenge I faced - since my project is heavily
+user-interactive, every test is slightly more complex - we need to
+supress the output (&lt;code&gt;sys.stdout&lt;/code&gt;) and simulate the input (&lt;code&gt;sys.stdin&lt;/code&gt;).
+Fortunately there is already a powerful library in &lt;code&gt;coalib&lt;/code&gt; that does
+just this: &lt;code&gt;coalib.misc.ContextManagers&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;With &lt;code&gt;suppress_stdout&lt;/code&gt;, all writes to &lt;code&gt;sys.stdout&lt;/code&gt; are forced to
+redirected to &lt;code&gt;/dev/null&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;With &lt;code&gt;retrieve_stdout&lt;/code&gt;, an alternative pipe is created to which all
+output is redirected (the original &lt;code&gt;stdout&lt;/code&gt; will be untouched).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;My favorite is &lt;code&gt;simulate_console_inputs&lt;/code&gt;. Just like the above two,
+this is a context manager - so it&amp;#39;s effect is easily limited. This
+takes in a variable number of inputs. Want the answers to three
+consecutive questions to be &lt;code&gt;&amp;quot;Yes&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;**&amp;quot;&lt;/code&gt;, and &lt;code&gt;&amp;quot;42&amp;quot;&lt;/code&gt;? Simply
+use &lt;code&gt;with simulate_console_inputs(&amp;quot;Yes&amp;quot;, &amp;quot;**&amp;quot;, &amp;quot;42&amp;quot;):&lt;/code&gt; and write
+your logic inside. That is as simple as it can get!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;coalib.misc.ContextManagers&lt;/code&gt; has a lot of other awesome stuff too. You
+should definitely &lt;a href=&quot;https://github.com/coala-analyzer/coala/tree/master/coalib/misc/ContextManagers.py&quot;&gt;check them out&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I still have to write an integration suite, but I&amp;#39;ve put that off for
+later - once I finish the core of my project - settings guessing. And that
+will be the next two weeks.&lt;/p&gt;
+
+&lt;p&gt;So until then,&lt;br&gt;
+Adhityaa&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Jun 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/06/15/gsoc-16-coala-week-4.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/06/15/gsoc-16-coala-week-4.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GSoC &#39;16: Weeks 2-3 updates</title>
+        <description>&lt;p&gt;Lots of activity the past few days!&lt;/p&gt;
+
+&lt;p&gt;I finally managed to get caching merged! And the performance improvements have
+been terrific. On my machine, which has a HDD, running coala on coala took
+around ~10 seconds to complete all sections. But with caching enabled, it takes
+just 4.5 seconds - a 2x speed improvement!&lt;/p&gt;
+
+&lt;p&gt;To enable caching, just run coala with &lt;code&gt;--changed-files&lt;/code&gt;. Of course, this is
+currently only on the dev version, you&amp;#39;ll have to wait till the 0.7 release
+to get it on the stable version. And from 0.8, we hope to get caching enabled
+by default. Really exciting stuff!&lt;/p&gt;
+
+&lt;p&gt;Another thing I worked on was automatic RST generation for bears. You can find
+it in the new &lt;a href=&quot;https://github.com/coala-analyzer/bear-docs&quot;&gt;bear-docs&lt;/a&gt; repo.
+With this, you can easily navigate the list of bears, categorized by each
+language. And for each bear, there is a description, the languages it supports,
+and a table with the settings taken by the bear. For example, you can take a
+look at the &lt;a href=&quot;https://github.com/coala-analyzer/bear-docs/blob/master/docs/PyImportSortBear.rst&quot;&gt;PyImportSortBear&lt;/a&gt;.
+Of course, this is a temporary solution till a more complete and comprehensive
+website is in place.&lt;/p&gt;
+
+&lt;p&gt;And to the main topic: &lt;code&gt;coala-quickstart&lt;/code&gt;. Big steps forward:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Remember how I asked the user for a glob expression to ignore files in a
+project? It&amp;#39;s much simpler now. After &lt;a href=&quot;https://github.com/Adrianzatreanu&quot;&gt;Adrian&amp;#39;s&lt;/a&gt;
+feature request &lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart/issues/13&quot;&gt;#13&lt;/a&gt;,
+I&amp;#39;ve implemented automatic ignore glob generation from the user&amp;#39;s &lt;code&gt;.gitignore&lt;/code&gt;
+file. But there was a slight issue: &lt;code&gt;git&lt;/code&gt; uses a glob syntax that is
+different from what we use at coala. So I needed to translate between the
+two before directly implementing it. After going through the &lt;a href=&quot;https://git-scm.com/docs/gitignore&quot;&gt;&lt;code&gt;gitignore
+documentation&lt;/code&gt;&lt;/a&gt; and testing some cases,
+I arrived at a solution that works pretty well.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Another big development is in the generation of glob expressions. A project
+may have several languages in it; for example, Python for the code, RST for
+the docs, &lt;code&gt;.yml&lt;/code&gt; for the configuration. So we need to categorize each language
+into its own section and add the corresponding bears to that section. But
+the problem lies in file globs - we only know the &lt;em&gt;list&lt;/em&gt; of files to lint,
+not a concise glob expression that covers exactly that list. I wrote a neat
+routine that does exactly that.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;.coafile&lt;/code&gt; generation - &lt;code&gt;.coafile&lt;/code&gt; is now generated automatically. To give
+you an insight into how the coafile looks, take a look at the generated
+&lt;code&gt;.coafile&lt;/code&gt; when I ran &lt;code&gt;coala-quickstart&lt;/code&gt; on itself: &lt;a href=&quot;https://gist.github.com/hypothesist/8a01faaa1ca48f1d24afbc146b9525ff&quot;&gt;gist&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While I still have to write tests and get code reviews, I&amp;#39;m fairly happy with
+my progress. And the past 3-4 days, I&amp;#39;ve been experimenting the implementation
+of the core of my project - settings guessing. It&amp;#39;s still in works, but I hope
+to have something by this weekend.&lt;/p&gt;
+
+&lt;p&gt;Till then,&lt;br&gt;
+Adhityaa&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Jun 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/06/15/gsoc-16-coala-week-2.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/06/15/gsoc-16-coala-week-2.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GSoC &#39;16: Week 1 updates</title>
+        <description>&lt;p&gt;The past week has been terrific!&lt;/p&gt;
+
+&lt;p&gt;There has been a slight shuffle in my GSoC timeline - I planned to
+start with a &lt;a href=&quot;https://github.com/coala-analyzer/coala/tree/master/coalib/bearlib&quot;&gt;&lt;code&gt;bearlib&lt;/code&gt;&lt;/a&gt;
+library to enumerate the list of required and optional options for a bear
+and all the possible values that they can take. This would have then been used
+further on in the core of my project.&lt;/p&gt;
+
+&lt;p&gt;But I decided to start with
+&lt;a href=&quot;https://github.com/coala-analyzer/coala-quickstart&quot;&gt;&lt;code&gt;coala-quickstart&lt;/code&gt;&lt;/a&gt;
+which is designed to be super-user-friendly and assist the user
+in the creation of their first &lt;code&gt;.coafile&lt;/code&gt;. In my experience, the beginning is
+the toughest part of any change or new practice. For a user starting with
+&lt;code&gt;coala&lt;/code&gt; this would be the coafile generation.&lt;/p&gt;
+
+&lt;p&gt;And this utility is basically designed to make it easy. My whole project pretty
+much revolves around &lt;code&gt;coala-quickstart&lt;/code&gt;, so this is definitely a big step in
+the forward direction.&lt;/p&gt;
+
+&lt;p&gt;But before I started with &lt;code&gt;coala-quickstart&lt;/code&gt;, I needed to complete my left over
+issues - file caching and casing bear. So I worked parallelly on both GSoC
+and the completion of these two. I&amp;#39;ll take a quick minute to explain both:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;github.com/coala-analyzer/coala/pull/2016&quot;&gt;Caching&lt;/a&gt; is basically a core
+performance improvement. Currently, when you run &lt;code&gt;coala&lt;/code&gt; on a project,
+all files are collected and linted. But this is a waste of computation
+power - why not just run coala on those files that have changed since the
+last time? That&amp;#39;s exactly what caching is supposed to do. And the
+speed improvements has been amazing - &lt;code&gt;coala&lt;/code&gt; is now 3x faster (benchmarked
+on &lt;code&gt;coala&lt;/code&gt; source code itself).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/coala-analyzer/coala-bears/pull/484&quot;&gt;CasingBear&lt;/a&gt; is the
+other one. While most of my contribution in &lt;code&gt;coala&lt;/code&gt; has been in core, I
+thought this would be an awesome bear to create. To give you an overview, the
+bear makes a incredibly easy to enforce/toggle the casing technique in your
+functions, variables, classes, objects and so on between &lt;code&gt;snake_casing&lt;/code&gt;,
+&lt;code&gt;camelCasing&lt;/code&gt; and &lt;code&gt;PascalCasing&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both are set to feature in the next coala release &lt;code&gt;0.7/0.3&lt;/code&gt; (caching is 
+initially going to be an experimental feature that needs to be enabled
+manually, but we hope to make it fully stable and default in 0.8). Will keep
+y&amp;#39;all updated about it.&lt;/p&gt;
+
+&lt;p&gt;Anyway, coming back to GSoC, &lt;code&gt;coala-quickstart&lt;/code&gt; was previously in a very early
+stage. I&amp;#39;ve added a few cool features in the past week. Here&amp;#39;s an overview:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ASCII bear logo art! Pretty cool huh?
+&lt;img src=&quot;https://i.imgur.com/UFPikAC.png&quot; alt=&quot;Welcome ASCII art&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is now proper libraries to prompt a question to the user and give info.
+Both are colorful too, thanks to &lt;a href=&quot;https://github.com/coala-analyzer/PyPrint&quot;&gt;PyPrint&lt;/a&gt;,
+a system independent python module for colors in a terminal.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Project based bear suggestions! Is your project mostly in Python? Just tell us
+your project directory and a glob pattern to match the files you want to lint
+(and ones you want to ignore), and &lt;code&gt;coala-quickstart&lt;/code&gt; will automatically list
+the most relevant bears you might be interested in (such as PEP8Bear, PyLintBear,
+and so on along with language independent bears such as LineLengthBear).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A neat interface for the user to know about bears.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An introduction to &lt;code&gt;sections&lt;/code&gt; followed by prompting the user for the sections
+they want in the project. This is then followed by simple questions for each section.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Writing all the obtained settings to a &lt;code&gt;.coafile&lt;/code&gt; in the project directory.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here&amp;#39;s a neat &lt;a href=&quot;https://asciinema.org&quot;&gt;asciinema&lt;/a&gt; showing off all the features:&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://asciinema.org/a/46651.js&quot; id=&quot;asciicast-46651&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Anyway, that was week 1. Looking forward to week 2 and the rest!&lt;/p&gt;
+
+&lt;p&gt;-- Adhityaa&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jun 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/06/03/gsoc-16-coala-week-1.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/06/03/gsoc-16-coala-week-1.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>GSoC &#39;16!</title>
+        <description>&lt;p&gt;Great news! I&amp;#39;ve been selected for this year&amp;#39;s GSoC (Google Summer of Code) under &lt;a href=&quot;http://www.coala-analyzer.com/&quot;&gt;coala&lt;/a&gt;, a powerful static-code analysis tool that is completely modularized. You should definitely use it in your projects if you want a tool that will completely automate huge segments of code review, thereby rapidly fast-forwarding the production cycle.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve been contributing for a couple of months and the the experience has been nothing short of being phenomenal! I was recently given contributor status too :)&lt;/p&gt;
+
+&lt;p&gt;Over the course of this summer, I&amp;#39;ll be working on a project called &lt;em&gt;Settings Guessing&lt;/em&gt;. Currently coala needs the user to specify the choice for each setting - whether to use spaces or tabs, whether to use &lt;code&gt;snake_casing&lt;/code&gt; or &lt;code&gt;camelCasing&lt;/code&gt;, whether to use &lt;a href=&quot;https://en.wikipedia.org/wiki/Indent_style#K.26R_style&quot;&gt;K&amp;amp;R style&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Indent_style#Allman_style&quot;&gt;Allman style&lt;/a&gt;. But with this project, this would guessed automatically! Totally awesome, right?&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for more, I&amp;#39;ll try to post updates weekly.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Apr 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/04/24/gsoc-16-coala.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/04/24/gsoc-16-coala.html</guid>
+        
+        <category>GSOC</category>
+        
+        <category>coala</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Performance benchmark: C and Python</title>
+        <description>&lt;p&gt;Hey everbody! Today I&amp;#39;ll be doing a simple performance benchmark between Python and C.&lt;/p&gt;
+
+&lt;p&gt;I knew before starting that Python will be slower than C. And it has every reason to be so: it&amp;#39;s an interpreted language after all. But when I actually saw the results, I was blown away. I found C to be &lt;strong&gt;over 22 times faster&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;A good way to test the speed of two languages is to make them compute the first &lt;code&gt;N&lt;/code&gt; prime numbers. And for this, I used &lt;a href=&quot;https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes&quot;&gt;Sieve of Eratosthenes&lt;/a&gt;. The reason? It&amp;#39;s a simple, yet powerful algorithm that is very popular and is used frequently. It is, in a nutshell, a powerful benchmarking technique. Let&amp;#39;s dive into the code. &lt;a href=&quot;https://github.com/hypothesist/benchmark-test-c-python&quot;&gt;[Github repository]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the python code: &lt;code&gt;main.py&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10000000&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;prime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;prime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And here is the C code: &lt;code&gt;main.c&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c++&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define MAX_N 10000000
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;prime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MAX_N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As you may see, the two are almost identical in the steps used. But it&amp;#39;s worthwhile to discuss the differences too:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In Python, due the lack of something analogous to &lt;code&gt;#define&lt;/code&gt; like in C, we have to resort to using a normal variable &lt;code&gt;MAX_N&lt;/code&gt;. This might lead to a slightly slower performance compared to the preprocessor directive.&lt;/li&gt;
+&lt;li&gt;In Python, we use &lt;code&gt;i += 1&lt;/code&gt; instead of &lt;code&gt;i++&lt;/code&gt; like we do in C. I&amp;#39;m not too sure about the performance impacts of using either, but intuitively, I feel &lt;code&gt;i++&lt;/code&gt; is faster since since processors &lt;em&gt;may&lt;/em&gt; have dedicated instructions for them. Again, I&amp;#39;m unsure about this, but felt it was necessary to point out this difference.&lt;/li&gt;
+&lt;li&gt;In Python, you may see the &lt;code&gt;prime = [False] * MAX_N&lt;/code&gt; compared to the C equivalent of &lt;code&gt;int prime[MAX_N]&lt;/code&gt;. I concede that this makes it slightly slower, but on further testing, I found the impact is really negligible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And with that out of the way, let&amp;#39;s look at the performance!&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;gcc main.c                    
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;time&lt;/span&gt; ./a.out &amp;gt; output_c       
+./a.out &amp;gt; output_c  0.43s user 0.02s system 99% cpu 0.450 total
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;time &lt;/span&gt;python main.py &amp;gt; output_python
+python main.py &amp;gt; output_python  9.54s user 0.08s system 100% cpu 9.611 total
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;diff output_c output_python
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There you go! The Python code takes over 9 seconds to complete the task while C takes just &lt;strong&gt;0.43 seconds&lt;/strong&gt;! That&amp;#39;s blazing fast when you consider that it just found all the primes under 10 million.&lt;/p&gt;
+
+&lt;p&gt;So there it is: while I absolutely love Python, it&amp;#39;s simply not designed for high performance tasks. (I&amp;#39;m not saying I&amp;#39;m the first one to discover this, but I had to find it out for myself.)&lt;/p&gt;
+
+&lt;p&gt;Until next time,&lt;br /&gt;
+Adhityaa&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Mar 2016 00:00:00 +0530</pubDate>
+        <link>http://hypothesist.github.io/2016/03/19/benchmark-c-python.html</link>
+        <guid isPermaLink="true">http://hypothesist.github.io/2016/03/19/benchmark-c-python.html</guid>
+        
+        <category>C</category>
+        
+        <category>Python</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
